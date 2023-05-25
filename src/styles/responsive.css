@@ -1,0 +1,108 @@
+@media only screen and (min-width: 37.5em) {
+  .user,
+  .card {
+    width: 60vw;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .user,
+  .card {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  /* USER DIV */
+
+  .user {
+    width: 22vw;
+    margin-right: 1.5rem;
+  }
+
+  .user__details {
+    padding: 3rem 1.5rem;
+  }
+
+  .user__details,
+  .user__nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .user__photo {
+    margin-bottom: 4rem;
+  }
+
+  .user__report {
+    margin-bottom: 1rem;
+  }
+
+  .user__name {
+    font-size: 3.75rem;
+    line-height: 1.2;
+    width: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .user__nav > *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  /******** Activity *********/
+
+  .activity {
+    width: 75vw;
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    row-gap: 1.25rem;
+    justify-items: center;
+  }
+
+  /******** CARDS ***********/
+  .card {
+    width: 22vw;
+    height: 25rem;
+  }
+
+  .card__icon {
+    flex: 0 0 22%;
+  }
+
+  .card__details {
+    padding-top: 1.5rem;
+  }
+
+  .card__type {
+    margin-bottom: 3rem;
+  }
+
+  .card__time {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card__time--current {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 68.75em) {
+  .user__details {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (max-width:26.25em) {
+  html {
+    font-size:50%;
+  }
+}
+
